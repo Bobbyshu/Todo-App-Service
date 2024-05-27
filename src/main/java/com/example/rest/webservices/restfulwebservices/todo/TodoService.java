@@ -15,11 +15,11 @@ public class TodoService {
 	
 	static {
 		todos.add(new Todo(++todosCount, "Bobbyshu","Learn Distributed System",
-							LocalDate.now().plusYears(1), false ));
+							LocalDate.now().plusMonths(3), false ));
 		todos.add(new Todo(++todosCount, "Bobbyshu","Fina an internship or co-op",
-				LocalDate.now().plusYears(2), false ));
+				LocalDate.now().plusMonths(7), false ));
 		todos.add(new Todo(++todosCount, "Bobbyshu","Find a full time job",
-				LocalDate.now().plusYears(3), false ));
+				LocalDate.now().plusMonths(12), false ));
 	}
 	
 	public List<Todo> findByUsername(String username){
